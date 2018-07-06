@@ -10,6 +10,7 @@ import crazypants.enderio.base.init.IModTileEntity;
 import crazypants.enderio.base.init.ModObjectRegistry;
 import crazypants.enderio.machines.EnderIOMachines;
 import crazypants.enderio.machines.machine.alloy.BlockAlloySmelter;
+import crazypants.enderio.machines.machine.basin.BlockBasin;
 import crazypants.enderio.machines.machine.buffer.BlockBuffer;
 import crazypants.enderio.machines.machine.crafter.BlockCrafter;
 import crazypants.enderio.machines.machine.enchanter.BlockEnchanter;
@@ -72,7 +73,8 @@ public enum MachineObject implements IModObject.Registerable {
   block_zombie_generator(BlockZombieGenerator.class, MachineTileEntity.TileZombieGenerator),
   block_franken_zombie_generator(BlockZombieGenerator.class, "create_franken", MachineTileEntity.TileFrankenZombieGenerator),
   block_ender_generator(BlockZombieGenerator.class, "create_ender", MachineTileEntity.TileEnderGenerator),
-
+  block_basin(BlockBasin.class, MachineTileEntity.TileBasin),
+  
   block_killer_joe(BlockKillerJoe.class, MachineTileEntity.TileKillerJoe),
   block_electric_light(BlockElectricLight.class, MachineTileEntity.TileElectricLight),
   block_light_node(BlockLightNode.class, MachineTileEntity.TileLightNode),
