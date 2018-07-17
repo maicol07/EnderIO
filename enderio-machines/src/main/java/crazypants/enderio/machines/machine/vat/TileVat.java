@@ -1,5 +1,12 @@
 package crazypants.enderio.machines.machine.vat;
 
+import static crazypants.enderio.machines.capacitor.CapacitorKey.ENHANCED_VAT_POWER_BUFFER;
+import static crazypants.enderio.machines.capacitor.CapacitorKey.ENHANCED_VAT_POWER_INTAKE;
+import static crazypants.enderio.machines.capacitor.CapacitorKey.ENHANCED_VAT_POWER_USE;
+import static crazypants.enderio.machines.capacitor.CapacitorKey.VAT_POWER_BUFFER;
+import static crazypants.enderio.machines.capacitor.CapacitorKey.VAT_POWER_INTAKE;
+import static crazypants.enderio.machines.capacitor.CapacitorKey.VAT_POWER_USE;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -38,13 +45,6 @@ import net.minecraftforge.fluids.FluidStack;
 import net.minecraftforge.fluids.FluidTank;
 import net.minecraftforge.fluids.capability.CapabilityFluidHandler;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessage;
-
-import static crazypants.enderio.machines.capacitor.CapacitorKey.ENHANCED_VAT_POWER_BUFFER;
-import static crazypants.enderio.machines.capacitor.CapacitorKey.ENHANCED_VAT_POWER_INTAKE;
-import static crazypants.enderio.machines.capacitor.CapacitorKey.ENHANCED_VAT_POWER_USE;
-import static crazypants.enderio.machines.capacitor.CapacitorKey.VAT_POWER_BUFFER;
-import static crazypants.enderio.machines.capacitor.CapacitorKey.VAT_POWER_INTAKE;
-import static crazypants.enderio.machines.capacitor.CapacitorKey.VAT_POWER_USE;
 
 @Storable
 public class TileVat extends AbstractPoweredTaskEntity implements ITankAccess.IExtendedTankAccess, IPaintable.IPaintableTileEntity {
