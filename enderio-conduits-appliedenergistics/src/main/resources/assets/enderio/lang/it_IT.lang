@@ -1,0 +1,9 @@
+#PARSE_ESCAPES
+# ^ having this in the first line allows us to use "\uXXXX" escapes in this file
+# 
+//***  Ender IO *****//
+//***  Italian Translation by maicol07 *****//
+
+# Conduits
+enderio.item_me_conduit.name=Condotto ME
+enderio.item_me_conduit_dense.name=Condotto ME denso
