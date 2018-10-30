@@ -1,0 +1,51 @@
+//***  Ender IO *****//
+//***  Italian Translation by maicol07 *****//
+
+fluid.soularium=Soularium fuso
+
+# Tool Material Names
+material.dark_steel.name=Acciaio scuro
+material.conductive_iron.name=Ferro conduttivo
+material.electrical_steel.name=Acciaio elettrico
+material.energetic_alloy.name=Lega energetica
+material.pulsating_iron.name=Ferro pulsante
+material.redstone_alloy.name=Lega di pietrarossa
+material.soularium.name=Soularium
+material.vibrant_alloy.name=Lega vibrante
+material.end_steel.name=Acciaio dell'end
+material.dark_steel.prefix=%s scuro
+material.conductive_iron.prefix=%s conduttivo
+material.electrical_steel.prefix=%s elettrico
+material.energetic_alloy.prefix=%s energetico
+material.pulsating_iron.prefix=%s pulsante
+material.redstone_alloy.prefix=%s rosso
+material.soularium.prefix=%s animato
+material.vibrant_alloy.prefix=%s vibrante
+material.end_steel.prefix=%s dell'end
+modifier.enderport.name=Evanescente
+modifier.enderport.desc=§oVia dalla mia strada!§r\nPossibilità di teletrasportare via i nemici.
+modifier.enderpickup.name=Diretto
+modifier.enderpickup.desc=§oÈ mio, tutto mio!§r\nTeletrasporta gli elementi minati direttamente nel tuo inventario.
+fluid.electrical_steel=Acciaio elettrico fuso
+tile.fluid.electrical_steel.name=Acciaio elettrico fuso
+fluid.energetic_alloy=Lega energetica fusa
+tile.fluid.energetic_alloy.name=Lega energetica fusa
+fluid.vibrant_alloy=Lega vibrante fusa
+tile.fluid.vibrant_alloy.name=Lega vibrante fusa
+fluid.redstone_alloy=Lega di pietrarossa fusa
+tile.fluid.redstone_alloy.name=Lega di pietrarossa fusa
+fluid.conductive_iron=Ferro conduttivo fuso
+tile.fluid.conductive_iron.name=Ferro conduttivo fuso
+fluid.pulsating_iron=Ferro pulsante fuso
+tile.fluid.pulsating_iron.name=Ferro pulsante fuso
+fluid.dark_steel=Acciaio scuro fuso
+tile.fluid.dark_steel.name=Acciaio scuro fuso
+tile.fluid.soularium.name=Soularium fuso
+fluid.end_steel=Acciaio dell'end fuso
+tile.fluid.end_steel.name=Acciaio dell'end fuso
+fluid.enderio.glowstone=Glowgas
+tile.fluid.enderio.glowstone.name=Glowgas
+fluid.enderio.redstone=Pietrarossa fusa
+tile.fluid.enderio.redstone.name=Pietrarossa fusa
+fluid.enderio.ender=Perle d'omega liquefatte
+tile.fluid.enderio.ender.name=Perle d'omega liquefatte
