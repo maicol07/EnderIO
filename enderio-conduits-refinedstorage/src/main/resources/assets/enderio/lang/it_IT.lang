@@ -1,0 +1,17 @@
+#PARSE_ESCAPES
+# ^ having this in the first line allows us to use "\uXXXX" escapes in this file
+# 
+//***  Ender IO *****//
+//***  Italian Translation by maicol07 *****//
+
+# Conduits
+enderio.item_refined_storage_conduit.name=Cavo Refined Storage
+item.item_rs_crafting_upgrade.name=Aggiornamento fabbricazione Refined Storage
+item.item_rs_crafting_speed_upgrade.name=Aggiornamento velocità fabbricazione Refined Storage
+item.item_rs_crafting_speed_downgrade.name=Riduzione velocità fabbricazione Refined Storage
+enderio.gui.rs_filter_upgrade_in=Filtro importatore
+enderio.gui.rs_filter_upgrade_in2=Inserire un filtro in questo slot per
+enderio.gui.rs_filter_upgrade_in3=attivare l'importazione alla Refined Storage
+enderio.gui.rs_filter_upgrade_out=Filtro esportatore
+enderio.gui.rs_filter_upgrade_out2=Inserire un filtro in questo slot per
+enderio.gui.rs_filter_upgrade_out3=attivare l'esportazione alla Refined Storage
