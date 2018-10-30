@@ -1,0 +1,16 @@
+//***  Ender IO *****//
+//***  Italian Translation by maicol07 *****//
+
+# forestry
+enderio.darksteel.upgrade.naturalist_eye.name=Occhio del naturalista
+enderio.darksteel.upgrade.naturalist_eye.tooltip.detailed.line1=Mostra le foglie impollinate di un albero
+enderio.darksteel.upgrade.apiarist_armor.head.name=Cappello dell'apicoltore
+enderio.darksteel.upgrade.apiarist_armor.head.tooltip.detailed.line1=Protezione contro le api
+enderio.darksteel.upgrade.apiarist_armor.chest.name=Camicia dell'apicoltore
+enderio.darksteel.upgrade.apiarist_armor.chest.tooltip.detailed.line1=Protezione contro le api
+enderio.darksteel.upgrade.apiarist_armor.legs.name=Pantaloni dell'apicoltore
+enderio.darksteel.upgrade.apiarist_armor.legs.tooltip.detailed.line1=Protezione contro le api
+enderio.darksteel.upgrade.apiarist_armor.feet.name=Scarpe dell'apicoltore
+enderio.darksteel.upgrade.apiarist_armor.feet.tooltip.detailed.line1=Protezione contro le api
+enderio.config.items.darksteel.upgrades.forestry=Aggiornamenti Forestry
+item.item_species_item_filter.name=Filtro specie oggetti
