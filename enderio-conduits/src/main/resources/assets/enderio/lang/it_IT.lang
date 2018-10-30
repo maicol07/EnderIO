@@ -1,0 +1,184 @@
+#PARSE_ESCAPES
+# ^ having this in the first line allows us to use "\uXXXX" escapes in this file
+# 
+//***  Ender IO *****//
+//***  Italian Translation by maicol07 *****//
+
+enderio.capbank.change=I/O
+enderio.capbank.iodisplay.stable=I/O
+enderio.capbank.iodisplay.gain=In
+enderio.capbank.iodisplay.loss=Out
+enderio.capbank.iodisplay.input=Input
+enderio.capbank.iodisplay.output=Output
+enderio.gui.disabled=Disattivato
+enderio.gui.enabled=Attivato
+# Conduits
+enderio.block_conduit_bundle=Insieme di condotti
+tile.block_conduit_bundle.name=Connettore condotto
+enderio.item_power_conduit.name=Condotto energetico
+enderio.item_power_conduit_enhanced.name=Condotto energetico potenziato
+enderio.item_power_conduit_ender.name=Condotto energetico d'omega
+enderio.power.max_output=Output max
+enderio.item_redstone_conduit_insulated.name=Condotto pietrarossa
+enderio.item_liquid_conduit.name=Condotto fluidi
+enderio.item_liquid_conduit_advanced.name=Condotto fluidi pressati
+enderio.item_liquid_conduit_ender.name=Condotto fluidi d'omega
+enderio.item_liquid_conduit.locked_type=Tipo di fluido bloccato a
+enderio.item_liquid_conduit.unlocked_type=Tipo di fluido sbloccato
+enderio.item_liquid_conduit.locked_waila=Bloccato a
+enderio.fluid.millibuckets_tick=mB/t
+enderio.item_liquid_conduit.tooltip.max_extract=Estrazione massima:
+enderio.item_liquid_conduit.tooltip.max_io=IO massimo:
+enderio.item_liquid_conduit.tooltip.detailed.line1=Il flusso dei fluidi rispetta la gravità.
+enderio.item_liquid_conduit.tooltip.detailed.line2=La portata dipende dalla viscosità del fluido
+enderio.item_liquid_conduit_ender.tooltip.detailed.line1=Teletrasporto fluido istantaneo.
+enderio.item_liquid_conduit_ender.tooltip.detailed.line2=Permette a fluidi multipli di essere trasportati nella stessa linea.
+enderio.item_item_conduit.name=Condotto per oggetti
+# CapBanks
+tile.block_cap_bank.creative.name=Banca di energia creativa
+tile.block_cap_bank.simple.name=Banca di energia base
+tile.block_cap_bank.activated.name=Banca di energia
+tile.block_cap_bank.vibrant.name=Banca di energia vibrante
+tile.block_cap_bank.tooltip.detailed.line1=Deposito di energia multi-blocco.
+tile.block_cap_bank.tooltip.detailed.line2=Può caricare gli oggetti alimentati da RF (deve essere rimosso).
+tile.block_cap_bank.tooltip.detailed.line3=Click destro e shift su una faccia con una mano vuota
+tile.block_cap_bank.tooltip.detailed.line4=per cambiare le informazioni visualizzate
+tile.block_cap_bank.tooltip.has_items=§6Contiene §4{0,number,integer}§6 {0,choice,1#item|1<items} nell'inventario
+# TODO dedupe these?
+enderio.capbank.max_io=I/O massimo
+enderio.capbank.max_in=Input max
+enderio.capbank.max_out=Output max
+enderio.gui.cap_bank.input_rs=Modalità input pietrarossa
+enderio.gui.cap_bank.output_rs=Modalità output pietrarossa
+enderio.gui.cap_bank.max_io=I/O massimo
+enderio.gui.cap_bank.max_input=Input max
+enderio.gui.cap_bank.max_output=Output max
+enderio.gui.cap_bank.input_mode=Input
+enderio.gui.cap_bank.output_mode=Output
+# Power Monitor
+tile.block_power_monitor.name=Monitor energia
+tile.block_power_monitor.tooltip.detailed.line1=Visualizza dettagli sull'uso dell'energia e del magazzino.
+tile.block_power_monitor.tooltip.detailed.line3=Può essere usato per emettere pietrarossa basandosi sui livelli di energia immagazzinata-
+tile.block_power_monitor.tooltip.detailed.line5=Deve essere collegato ad un condotto di energia EnderIO.
+tile.block_advanced_power_monitor.name=Monitor energia grafico
+tile.block_advanced_power_monitor.tooltip.detailed.line1=Visualizza dettagli sull'uso dell'energia e del magazzino.
+tile.block_advanced_power_monitor.tooltip.detailed.line3=Può essere usato per emettere pietrarossa basandosi sui livelli di energia immagazzinata.
+tile.block_advanced_power_monitor.tooltip.detailed.line5=Deve essere collegato ad un condotto di energia EnderIO.
+enderio.gui.power_monitor.engine_control=Controllo del motore
+enderio.gui.power_monitor.emit=Emetti
+enderio.gui.power_monitor.engine_section1=Emetti segnale quando deposita meno
+enderio.gui.power_monitor.engine_section2=di
+enderio.gui.power_monitor.engine_section3=% pieno.
+enderio.gui.power_monitor.engine_section4=Ferma quando il deposito è maggiore di
+enderio.gui.power_monitor.engine_section5=o uguale a
+enderio.gui.power_monitor.of=di
+enderio.gui.power_monitor.conduit_storage=Deposito condotto
+enderio.gui.power_monitor.capbank_storage=Deposito banca di energia
+enderio.gui.power_monitor.machine_buffer=Buffer macchine
+enderio.gui.power_monitor.average_output=Output medio ogni 5 secondi
+enderio.gui.power_monitor.average_input=Input medio ogni 5 secondi
+enderio.gui.power_monitor.no_network_error=Nessuna rete di condotti collegata. Il monitor di energia ha bisogno di essere collegato ad una rete di condotti da cui leggere i dati.
+# Conduit Probe
+enderio.gui.conduit_probe.network_heading=Energia rete
+enderio.gui.conduit_probe.conduit_buffer=Buffer interno
+enderio.gui.conduit_probe.request_range=Intervallo di richiesta per tick
+enderio.gui.conduit_probe.current_request=Richiesta attuale
+enderio.gui.conduit_probe.item_heading=Condotto per oggetti
+enderio.gui.conduit_probe.item_no_connections=non ha connessioni esterne
+enderio.gui.conduit_probe.no_power_from_side=non può ricevere energia da questo lato
+enderio.gui.conduit_probe.connection_dir=connessione a:
+enderio.gui.conduit_probe.extracted_items=Oggetti estratti
+enderio.gui.conduit_probe.extracted_item=Oggetto
+enderio.gui.conduit_probe.no_outputs=non ha output validi
+enderio.gui.conduit_probe.inserted_into=verrà inserito dentro:
+enderio.gui.conduit_probe.no_items=Non riceve oggetti.
+enderio.gui.conduit_probe.no_item=Non può ricevere
+enderio.gui.conduit_probe.receive_items=Può ricevere oggetti da:
+enderio.gui.conduit_probe.receive_item1=Può ricevere
+enderio.gui.conduit_probe.receive_item2=da:
+enderio.gui.conduit_energy.header=Condotto energetico
+enderio.gui.conduit_item.header=Condotto per oggetti
+enderio.gui.conduit_fluid.header=Condotto fluidi
+enderio.gui.conduit_redstone.header=Condotto pietrarossa
+enderio.gui.conduit_bundle_full=Insieme pieno
+# Gauge
+tile.block_gauge.name=Indicatore di energia
+tile.block_gauge.tooltip.detailed.line1=Mostra i livelli di energia dei blocchi adiacenti.
+enderio.config.capbank=Banca di energia
+enderio.config.condit=Condotti
+enderio.config.condit.energy=Condotti energetici
+enderio.config.condit.fluid=Condotti fluidi
+enderio.config.condit.item=Condotti oggetti
+enderio.config.condit.redstone=Condotti pietrarossa
+# Upgrades
+item.item_extract_speed_upgrade.name=Aumento velocità di estrazione
+item.item_extract_speed_downgrade.name=Riduzione velocità di estrazione
+item.item_inventory_panel_upgrade.name=Aggiornamento pannello inventario
+# GUI
+enderio.gui.conduit_insert_mode=Inserire
+enderio.gui.conduit_extract_mode=Estrarre
+enderio.gui.conduit_enabled_mode=Attivato
+enderio.gui.conduit_disabled_mode=Disattivato
+enderio.gui.redstone_conduit_input_mode=Input
+enderio.gui.redstone_conduit_output_mode=Output
+enderio.gui.conduit_channel=Canale
+enderio.gui.round_robin_enabled=Round robin attivato
+enderio.gui.round_robin_disabled=Round robin disattivato
+enderio.gui.self_feed_enabled=Auto nutrimento attivato
+enderio.gui.self_feed_disabled=Auto nutrimento disattivato
+enderio.gui.item_filter_upgrade=Aggiornamento filtro
+enderio.gui.item_function_upgrade=Aggiornamento funzionale
+enderio.gui.item_function_upgrade2=Gli aggiornamenti massimi sono 15
+enderio.gui.item_function_upgrade3=I downgrade massimi sono 15
+enderio.gui.signal_color=Colore segnale
+enderio.gui.priority=Priorità
+enderio.gui.liquid_auto_extract=Estrazione automatica
+enderio.gui.liquid_filter=Filtra
+enderio.gui.liquid_whitelist=Lista bianca
+enderio.gui.liquid_blacklist=Lista nera
+enderio.gui.redstone_signal_strength=Segnale forte
+# Advancements
+enderio.advancement.conduits.root.name=Condotti EnderIO
+enderio.advancement.conduits.root.desc=Quanti condotti in un blocco?
+enderio.advancement.conduits.binder_composite.name=Io non sono Grout!
+enderio.advancement.conduits.binder_composite.desc=Fabbrica un pò di composito della legatura
+# Temp?
+enderio.advancement.conduits.conduit_binder.name=Legatore universale
+enderio.advancement.conduits.conduit_binder.desc=Fondi qualche legatura per condotto
+# Temp
+enderio.advancement.conduits.energy_conduit.basic.name=Energia base
+enderio.advancement.conduits.energy_conduit.basic.desc=Fabbrica qualche condotto energetico
+# Temp
+enderio.advancement.conduits.energy_conduit.enhanced.name=Energia potenziata
+enderio.advancement.conduits.energy_conduit.enhanced.desc=Fabbrica qualche condotto energetico potenziato
+# Temp
+enderio.advancement.conduits.energy_conduit.ender.name=Energia omega
+enderio.advancement.conduits.energy_conduit.ender.desc=Fabbrica qualche condotto energetico omega
+# Temp
+enderio.advancement.conduits.fluid_conduit.basic.name=Fluido base
+enderio.advancement.conduits.fluid_conduit.basic.desc=Fabbrica qualche condotto fluidi
+# Temp?
+enderio.advancement.conduits.fluid_conduit.pressurized.name=Sotto presssione
+enderio.advancement.conduits.fluid_conduit.pressurized.desc=Fabbrica qualche condotto fluidi pressato
+enderio.advancement.conduits.fluid_conduit.ender.name=Fluidi istantanei, aggiungere solamente ender
+enderio.advancement.conduits.fluid_conduit.ender.desc=Fabbrica qualche condotto fluidi omega
+# Temp
+enderio.advancement.conduits.item_conduit.name=Trasferimento oggetto
+enderio.advancement.conduits.item_conduit.desc=Fabbrica qualche condotto per oggetti
+enderio.advancement.conduits.basic_filter.name=Filtro per ottusi
+enderio.advancement.conduits.basic_filter.desc=Fabbrica un filtro oggetti base
+enderio.advancement.conduits.advanced_filter.name=Controllo massimo
+enderio.advancement.conduits.advanced_filter.desc=Fabbrica un filtro oggetti avanzato
+enderio.advancement.conduits.big_filter.name=Dimensione massima
+enderio.advancement.conduits.big_filter.desc=Fabbrica un filtro per oggetti grande
+enderio.advancement.conduits.big_advanced_filter.name=Un filtro per regolarli tutti
+enderio.advancement.conduits.big_advanced_filter.desc=Fabbrica un filtro per oggetti avanzato di grandi dimensioni
+# Temp
+enderio.advancement.conduits.redstone_conduit.name=Trasferimento di pietrarossa
+enderio.advancement.conduits.redstone_conduit.desc=Fabbrica qualche condotto per pietrarossa
+# Temp?
+enderio.advancement.conduits.all_conduits.name=Tuttofare
+enderio.advancement.conduits.all_conduits.desc=Fabbrica tutti i tipi di condotti principali
+# Temp?
+enderio.advancement.conduits.all_filters.name=Ottenere la specificità
+enderio.advancement.conduits.all_filters.desc=Fabbrica tutti i tipi di filtri principali
